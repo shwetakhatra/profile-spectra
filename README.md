@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Profile Spectra App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is the demo application. The application lists random user profiles initially. Then User can add or renew whole list by clicking on button at the bottom.
+
 
 ## Setup
 
@@ -17,16 +18,6 @@ Start the development server on `http://localhost:3000`:
 ```bash
 # npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
 
 ## Production
 
@@ -62,4 +53,18 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Running the development Server
+
+```bash
+# npm install
+
+Followed by npm run dev to start the development server.
+
+```bash
+# npm run dev
+```
+
+npm run dev starts your Next.js development server on port 3000. Let's check to see if it's working. Open http://localhost:3000 on your browser.
+
+
+
