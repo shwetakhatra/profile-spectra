@@ -1,9 +1,9 @@
 <template>
   <div>
-    <button @click="renewProfiles" class="fixed bottom-2 right-5 p-5 bg-primary text-white rounded-full font-bold">
+    <button @click="renewProfiles" class="z-10 fixed bottom-2 right-5 p-5 bg-primary text-white rounded-full font-bold">
       Renew
     </button>
-    <AddProfileButton :onAddProfiles="addProfiles" />
+    <AddProfileButton :onAddProfiles="addProfiles" class="z-10"/>
     <ProfileList :profiles="profiles" />
     <div v-if="isLoading">
       <Loader :isLoading="isLoading" />
