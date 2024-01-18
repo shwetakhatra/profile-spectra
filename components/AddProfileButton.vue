@@ -1,5 +1,5 @@
 <template>
-    <button @click="incrementAndFetch" class="addbtn fixed bottom-20 right-5 p-5 bg-primary text-white rounded-full font-bold">
+    <button @click="incrementAndFetch" class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 font-medium uppercase leading-normal text-white">
       Add
     </button>
 </template>

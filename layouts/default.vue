@@ -8,7 +8,7 @@
   
   <script>
   import Header from '@/components/AppHeader';
-  import Loader from '~/components/Loader.vue';
+  import Loader from '@/components/Loader.vue';
   import { ref, onMounted } from 'vue';
   
   export default {
