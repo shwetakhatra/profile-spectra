@@ -67,19 +67,5 @@
     transform: translateY(0);
     bottom: 0;
   }
-
-  .delete-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    color: gray;
-    border: none;
-    cursor: pointer;
-    background-color: red;
-    color: white;
-    z-index: 9999;
-  }
 </style>
   
