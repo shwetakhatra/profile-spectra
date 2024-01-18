@@ -12,7 +12,7 @@
             <p class="font-semibold line-clamp-3"><font-awesome-icon icon="fa-solid fa-location-dot" />  {{ profile.location.street.name }}, {{ profile.location.city }}, {{profile.location.state }}</p>
             <p class="font-semibold line-clamp-3"><font-awesome-icon icon="fa-solid fa-user" />  {{ profile.login.username }}</p>
             <div class="card-actions justify-end">
-              <button type="button" class="btn btn-primary" @click="deleteProfile">Delete</button>
+              <button type="button" class="rounded bg-primary px-6 pb-2 pt-2.5 font-medium uppercase leading-normal text-white" @click="deleteProfile">Delete</button>
             </div>
           </div>
         </transition>
